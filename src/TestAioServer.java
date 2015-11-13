@@ -1,6 +1,9 @@
-package com.vfhhu.aio_server;
+
 
 import java.net.InetSocketAddress;
+
+import com.vfhhu.lib.aio_server.AIOServer;
+import com.vfhhu.lib.aio_server.AIOSocket;
 
 public class TestAioServer extends AIOServer{
 	private static TestAioServer aio;
